@@ -1,0 +1,70 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500;600&display=swap'); */
+
+:root{
+    --main-color: linear-gradient(45deg, #4960F9, #1937FE);
+}
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+body{
+    font-family: 'roboto', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    background-color: #dacadc;
+}
+a{
+    text-decoration: none;
+}
+.content::-webkit-scrollbar {
+    
+    width: 2px;
+  }
+  
+  /* Đường dẫn của thanh cuộn */
+  .content::-webkit-scrollbar-track {
+    background: #f1f1f115;
+    border-radius: 5px;
+  }
+  
+  /* Thanh cuộn */
+  .content::-webkit-scrollbar-thumb {
+    background: rgba(103, 102, 102, 0.6); 
+    border-radius: 5px;
+  }
+
+  /* Khi hover vào thanh cuộn */
+  .content::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
+
+.ctn{
+    margin-top: 5px;
+    width: 375px;
+    height: 812px;
+    background-color: rgb(245, 245, 245);
+}
+
+.header1{
+    height: 152px;
+    width: 100%;
+    background: var(--main-color);
+}
+
+.fixed-menu{
+    height: 100px;
+    background: rgb(255, 255, 255);
+    
+}
+.content{
+    overflow-x: hidden;
+}
+.sd{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
